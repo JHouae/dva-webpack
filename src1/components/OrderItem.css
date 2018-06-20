@@ -1,0 +1,65 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 3.24rem;
+}
+
+.itemContent {
+  background-color: white;
+  width: 7.1rem;
+  height: 3.04rem;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);
+}
+.itemTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.8rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.itemMsg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 1.4rem;
+}
+.itemCarMsg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+}
+.itemMoneyMsg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+}
+
+
+.arrowImg {
+  width: 0.1rem;
+  height: 0.2rem;
+}
+
+.eeeLineHorizontal {
+  width: 6.7rem;
+  height: 0.02rem;
+  margin-top: 0rem;
+  margin-left: 0.2rem;
+  background-color: #eeeeee;
+}
+.eeeLineVertical {
+  width: 0.02rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  margin-left: 0rem;
+  background-color: #eeeeee;
+}

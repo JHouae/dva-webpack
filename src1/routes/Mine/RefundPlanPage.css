@@ -1,0 +1,38 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 7.1rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  margin: 0.2rem;
+}
+
+.contentTitle {
+  width: 100%;
+  height: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yearAndMonthTitle {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #E2414E;
+  margin-left: 0.2rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+}
+
+.panelTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.28rem !important;
+}

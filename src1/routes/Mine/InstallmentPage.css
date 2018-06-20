@@ -1,0 +1,156 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderMessage {
+  width: 7.1rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  padding-top: 0.26rem;
+  padding-bottom: 0.4rem;
+}
+
+.orderMessage > div {
+  margin-left: 0.2rem;
+}
+
+.detailContent {
+  margin-top: 0.2rem;
+}
+
+.detailTitle {
+  color: #666666;
+}
+
+.installment {
+  width: 7.1rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  padding-top: 0.26rem;
+  padding-bottom: 0.4rem;
+}
+
+.installment > div {
+  margin-left: 0.2rem;
+}
+
+.selectTimeContent {
+  width: 6.6rem;
+  height: 0.64rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.installmentTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.selectTimeItem {
+  width: 3.2rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectTimeItem > span {
+  margin-left: 0.2rem;
+}
+.selectTimeIcon {
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-right: 0.2rem;
+}
+.firstTimeContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 0.2rem;
+}
+.firstTimeMoney {
+  width: 3.48rem;
+  height: 0.64rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 0.64rem;
+}
+.moneyChoose {
+  width: 0.64rem;
+  height: 0.64rem;
+  background-color: #eeeeee;
+}
+.firstTimeMoneyNum {
+  width: 2rem;
+  height: 0.64rem;
+  background-color: #eeeeee;
+}
+.firstTimeMoneyNumInput {
+  background-color: #eeeeee;
+  text-align: center;
+  width: 2rem;
+}
+.bankCardContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2rem;
+}
+.bankCardContentDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.informationIcon {
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-left: 0.1rem;
+}
+
+.bottomView {
+  width: 100%;
+  height: 0.88rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 0.88rem;
+  position: fixed;
+  bottom: 0;
+}
+.leftView {
+  width: 50%;
+  background-color: white;
+  color: red;
+}
+.rightView {
+  width: 50%;
+  background-color: red;
+  color: white;
+}
+
+.eeeLine {
+  width: 100%;
+  height: 0.02rem;
+  margin-top: 0rem;
+  background-color: #eeeeee;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.top30 {
+  margin-top: 0.3rem;
+}
+.top20 {
+  margin-top: 0.2rem;
+}

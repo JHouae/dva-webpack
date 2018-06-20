@@ -1,0 +1,130 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+}
+
+.baseInfo {
+  width: 7.1rem;
+  height: 7.1rem;
+  margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+}
+
+.eeeLine {
+  width: 6.9rem;
+  height: 0.02rem;
+  margin-top: 0rem;
+  margin-left: 0.2rem;
+  background-color: #eeeeee;
+}
+
+.infoTitle {
+  height: 0.8rem;
+  margin-left: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputStyle {
+  text-align: right;
+  margin-right: 0.23rem;
+}
+.arrow {
+  width: 0.2rem;
+  height: 0.24rem;
+  margin-right: 0.2rem;
+}
+
+.upload {
+  width: 7.1rem;
+  height: 3.9rem;
+  margin: 0rem 0.2rem 0.2rem 0.2rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+}
+.uploadTitle {
+  height: 0.8rem;
+  margin-left: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.uploadContentView {
+  height: 3.08rem;
+}
+.uploadContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.uploadContentItem {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.uploadContentTitle {
+  margin-top: 0.4rem;
+}
+.uploadContentPic {
+  margin-top: 0.2rem;
+  width: 3.26rem;
+  height: 1.8rem;
+  /* background-color: #eeeeee; */
+
+}
+.greyBG {
+  width: 3.26rem;
+  height: 1.8rem;
+}
+
+.carLicenceItem {
+  display: flex;
+  flex-direction: row;
+}
+.informationIcon {
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-left: 0.1rem;
+}
+
+.bottomBlockView {
+  width: 100%;
+  height: 0.88rem;
+}
+
+.bottomView {
+  width: 100%;
+  height: 0.88rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 0.88rem;
+
+}
+.leftView {
+  width: 50%;
+  background-color: white;
+  color: red;
+}
+.rightView {
+  width: 50%;
+  background-color: red;
+  color: white;
+}
+
+/* @media only screen and (device-width: 375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) {
+  .bottomView {
+    bottom: 34px;
+  }
+} */
+

@@ -1,0 +1,21 @@
+.uploadContentItem {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.uploadContentTitle {
+  margin-top: 0.4rem;
+}
+.uploadContentPic {
+  margin-top: 0.2rem;
+  width: 3.26rem;
+  height: 1.8rem;
+  /* background-color: #eeeeee; */
+}
+.greyBG {
+  width: 3.26rem;
+  height: 1.8rem;
+}

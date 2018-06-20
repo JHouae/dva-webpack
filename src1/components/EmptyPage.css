@@ -1,0 +1,13 @@
+.noDataContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+}
+
+.noDataImg {
+  margin-top: 3rem;
+  width: 1rem;
+  height: 1rem;
+}

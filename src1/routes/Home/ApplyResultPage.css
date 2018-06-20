@@ -1,0 +1,65 @@
+.normal {
+}
+
+.content {
+  width: 7.1rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.successIcon {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.4rem;
+}
+.tips {
+  font-size: 0.24rem;
+  color: #666666;
+}
+.telephone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 6.7rem;
+  font-size: 0.24rem;
+  height: 0.94rem;
+}
+
+.bottomView {
+  width: 100%;
+  height: 0.88rem;
+  background-color: white;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 0.88rem;
+
+}
+.leftView {
+  width: 50%;
+  background-color: white;
+  color: red;
+}
+.rightView {
+  width: 50%;
+  background-color: red;
+  color: white;
+}
+
+.eeeLine {
+  width: 6.7rem;
+  height: 0.02rem;
+  margin-top: 0rem;
+  margin-left: 0.2rem;
+  background-color: #eeeeee;
+  margin-top: 0.6rem;
+}
