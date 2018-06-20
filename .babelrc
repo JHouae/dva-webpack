@@ -1,4 +1,8 @@
 {
-  "presets": ["env", "react", "es2015"],
-  "plugins": ["transform-runtime"]
+  "presets": ["env", "react", "es2015", "stage-0"],
+  "plugins": [
+    ["import", { libraryName: "antd-mobile", style: "css" }],
+    ["transform-class-properties"],
+    ["transform-runtime"]
+  ] 
 }

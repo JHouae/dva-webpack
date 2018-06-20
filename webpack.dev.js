@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src1/index.js',
   output: {
     path: path.resolve(__dirname, '/dist'),
     filename: '[name].[hash].js',
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        loader: 'babel-loader?presets[]=react,presets[]=es2015,presets[]=stage-0',
         exclude: /node_modules/,
         options: {
           cacheDirectory: true,
