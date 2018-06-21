@@ -40,6 +40,7 @@ module.exports = {
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'file-loader',
@@ -58,6 +59,7 @@ module.exports = {
       },
       {
         test: /\.html$/,
+        exclude: /node_modules/,
         use: [{
           loader: 'html-loader',
           options: {
