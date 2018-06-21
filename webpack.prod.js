@@ -16,7 +16,19 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader?modules&localIdentName=[path][name]---[local]---[hash:base64:5]'],
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader?modules&localIdentName=[path][name]---[local]---[hash:base64:5]',
+        }),
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader',
+        }),
+        include: /node_modules/,
       },
       {
         test: /\.js$/,
