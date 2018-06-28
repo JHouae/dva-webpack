@@ -1,9 +1,9 @@
+import URI from 'urijs';
 import React, { Component } from 'react';
 import { connect } from 'dva';
 import { TabBar } from 'antd-mobile';
 import HomePage from './Home/HomePage';
 import MinePage from './Mine/MinePage';
-import URI from 'urijs';
 
 import tabbarInstallmentNormal from '../assets/icon_tab_safe_nor.png';
 import tabbarInstallmentSelect from '../assets/icon_tab_safe_pre.png';

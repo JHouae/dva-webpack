@@ -16,6 +16,12 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader?modules&localIdentName=[path][name]---[local]---[hash:base64:5]'],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+        include: /node_modules/,
       },
       {
         test: /\.js$/,
@@ -27,6 +33,7 @@ module.exports = {
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'file-loader',
@@ -45,6 +52,7 @@ module.exports = {
       },
       {
         test: /\.html$/,
+        exclude: /node_modules/,
         use: [{
           loader: 'html-loader',
           options: {
